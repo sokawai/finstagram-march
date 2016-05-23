@@ -1,0 +1,51 @@
+header {
+    position: fixed;
+    
+    width: 100%;
+    background-color: white;
+    color: grey
+    
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    background-color: whitesmoke;
+    padding: 16px;
+}
+
+.post {
+    margin-bottom: 48px;
+}
+
+.post .user-info img {
+    border-radius: 50%;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    main {
+        width: 100%;
+        margin: 0 auto;
+        clear: both;
+        float: left;
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    header {
+        font-size: 200%;
+        /*position: fixed;*/
+        margin: 0 auto;
+        clear: both;
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    .post {
+        font-size: 200%;
+        /*position: fixed;*/
+        margin: 0 auto;
+        clear: both;
+    }
+}
