@@ -29,6 +29,7 @@ header {
   overflow: hidden;
   display: flex;
   align-items: baseline;
+
 }
 
 header > .login-info {
@@ -56,7 +57,7 @@ main {
 .button {
   padding: .5em;
   background-color: #FFFFFF;
-  border: solid 1px #244751;
+  border: solid 1px #dbdbdb;
   display: inline-block;
 }
 
