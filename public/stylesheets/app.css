@@ -1,18 +1,16 @@
 header {
-    position: fixed;
-    
-    width: 100%;
+    margin: auto;
+    border: 1px solid #dbdbdb;
+    padding:20px;
     background-color: white;
-    color: grey
-    
 }
 
 body {
-    background-color: white;
+    background-color: #fafafa;
 }
 
 main {
-    background-color: whitesmoke;
+    background-color: white;
     padding: 16px;
 }
 
